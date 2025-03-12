@@ -1,0 +1,20 @@
+@import url('../animations/keyframes.css');
+
+.MuiButton-root.start-assignment-button {
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: none;
+  cursor: pointer;
+	color: #5F3CFF;
+  border: 1px solid #5F3CFF;
+}
+
+.MuiButton-root.start-assignment-button:focus {
+  outline: none;
+}
+
+.MuiButton-root.start-assignment-button:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: pulse 1.2s ease-in-out infinite;
+}
